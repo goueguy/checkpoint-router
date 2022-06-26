@@ -1,0 +1,13 @@
+body{
+    background-color: #f0f2f5 !important;
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+}
+nav{
+    text-align: center;
+}
+a{
+    text-decoration: none !important;
+}
