@@ -13,7 +13,7 @@ const DetailMovie = ({movies}) => {
         <div className='mx-auto row mb-5'>
             <iframe width="722" height="500" src={movieData.videoLink} title="The Day I Met El Chapo | Official Trailer [HD] | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div className='col-lg-8 offset-2 card mt-5 mb-5 p-2 flex-row shadow'>
-                <img src={movieData.photo} alt={movieData.name} className='align-middle mr-4 mt-5' height={"190px"} width={"150px"}/>
+                <img src={movieData.photo} alt={movieData.name} className='align-middle mr-4 mt-5' height={"190px"} width={"200px"}/>
                 <div className='flex-col m-5'>
                     <h2>
                     {movieData.name}
